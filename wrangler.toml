@@ -1,9 +1,16 @@
+name = "chtnnh-music"
+compatibility_date = "2024-04-13"
+
 [build]
 command = "npm run build"
 output_dir = "dist/public"
 
+[build.environment]
+NODE_VERSION = "22.13.0"
+
 [site]
 bucket = "./dist/public"
 
-[build.environment]
-NODE_VERSION = "22.13.0" 
+# Pages-specific configuration
+[pages]
+pages_build_output_dir = "dist/public" 
