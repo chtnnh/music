@@ -4,14 +4,14 @@ import ReactPlayer from 'react-player/youtube';
 // Define video data
 const videos = [
   {
-    id: "PL8aaZb5bp6A",
-    title: "Midnight Dreams (Official Video)",
-    releaseDate: "March 2023"
+    id: "5_JVDEe5vQs",
+    title: "Cabbie (Official Music Video)",
+    releaseDate: "March 2024"
   },
   {
-    id: "7kxOyWqe3MY",
-    title: "Aurora Waves (Official Video)",
-    releaseDate: "January 2023"
+    id: "bpet5YQNgpE",
+    title: "Raw (Official Visualizer)",
+    releaseDate: "February 2025"
   }
 ];
 
@@ -30,7 +30,7 @@ const Videos = () => {
             Videos
           </h2>
           <p className="text-foreground/80 max-w-2xl mx-auto">
-            Check out my latest music videos and performances on YouTube
+            Check out my latest music videos on YouTube
           </p>
         </motion.div>
         
@@ -61,12 +61,12 @@ const Videos = () => {
                 <h3 className="text-xl font-montserrat font-bold mb-2">{video.title}</h3>
                 <p className="text-foreground/70 mb-4">{video.releaseDate}</p>
                 <a 
-                  href="https://youtube.com/@chtnnh" 
+                  href={`https://youtube.com/watch?v=${video.id}`} 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-secondary hover:text-secondary/80 transition-colors inline-flex items-center"
                 >
-                  <i className="fab fa-youtube mr-2"></i> Watch on YouTube
+                  <i className="fab fa-youtube mr-2"></i>Watch on YouTube
                 </a>
               </div>
             </motion.div>
@@ -86,7 +86,7 @@ const Videos = () => {
             rel="noopener noreferrer" 
             className="inline-block py-3 px-8 bg-[#FF0000] text-white rounded-full transition hover:bg-opacity-90 font-medium"
           >
-            <i className="fab fa-youtube mr-2"></i> Subscribe to my YouTube Channel
+            <i className="fab fa-youtube mr-2"></i>Subscribe to my YouTube Channel
           </a>
         </motion.div>
       </div>

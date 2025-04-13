@@ -1,0 +1,9 @@
+[build]
+command = "npm run build"
+output_dir = "dist/public"
+
+[site]
+bucket = "./dist/public"
+
+[build.environment]
+NODE_VERSION = "22.13.0" 

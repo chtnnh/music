@@ -61,7 +61,7 @@ export class MemStorage implements IStorage {
     
     return submission;
   }
-  
+
   private async submitToGoogleSheets(formData: ContactFormSubmission): Promise<void> {
     // Check for required environment variables
     const spreadsheetId = process.env.GOOGLE_SHEETS_ID;

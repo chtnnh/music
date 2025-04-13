@@ -216,6 +216,26 @@ const Contact = () => {
             </a>
             
             <a 
+              href="https://open.spotify.com/artist/7BPea1qt2laxvuxKH0vIbV?si=EYtXa_9UQnykO0wfbiuVoA" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex flex-col items-center p-6 bg-card rounded-xl transition-transform hover:scale-105 border border-primary/10"
+            >
+              <i className="fab fa-spotify text-3xl text-[#1DB954] mb-3"></i>
+              <span className="text-foreground font-medium">@chtnyh</span>
+            </a>
+            
+            <a 
+              href="https://music.apple.com/us/artist/chtnyh/1791359881" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex flex-col items-center p-6 bg-card rounded-xl transition-transform hover:scale-105 border border-primary/10"
+            >
+              <i className="fab fa-apple text-3xl text-[#FA243C] mb-3"></i>
+              <span className="text-foreground font-medium">@chtnyh</span>
+            </a>
+            
+            <a 
               href="mailto:music@chtnnh.me" 
               className="flex flex-col items-center p-6 bg-card rounded-xl transition-transform hover:scale-105 border border-primary/10"
             >

@@ -32,12 +32,12 @@ const Navbar = () => {
   return (
     <motion.nav
       id="navbar"
-      className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'py-2' : 'py-4'}`}
+      className="fixed w-full z-50 transition-all duration-300"
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="px-4 sm:px-6 lg:px-8 bg-background/80 backdrop-blur-md">
+      <div className="px-4 sm:px-6 lg:px-8 py-8 bg-background/80 backdrop-blur-md">
         <div className="flex justify-between items-center">
           <a href="#hero" className="text-2xl font-bold font-montserrat tracking-wide bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             chtnnh

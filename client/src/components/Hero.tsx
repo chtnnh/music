@@ -39,7 +39,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            Mellow & electronic instrumental music with occasional vocals
+            mellow instrumental music
           </motion.p>
           
           <motion.div 
@@ -49,7 +49,7 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
           >
             <a 
-              href="https://open.spotify.com/artist/chtnnh" 
+              href="https://open.spotify.com/artist/7BPea1qt2laxvuxKH0vIbV?si=EYtXa_9UQnykO0wfbiuVoA" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="py-3 px-6 bg-[#1DB954] text-white rounded-full flex items-center transition hover:bg-opacity-90 font-medium"
@@ -57,7 +57,7 @@ const Hero = () => {
               <i className="fab fa-spotify mr-2"></i> Spotify
             </a>
             <a 
-              href="https://music.apple.com/artist/chtnnh" 
+              href="https://music.apple.com/us/artist/chtnyh/1791359881" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="py-3 px-6 bg-[#FA243C] text-white rounded-full flex items-center transition hover:bg-opacity-90 font-medium"

@@ -3,46 +3,26 @@ import { motion } from 'framer-motion';
 // Define track data
 const tracks = [
   {
-    title: "Midnight Dreams",
-    releaseDate: "March 2023",
-    cover: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+    title: "Cabbie",
+    releaseDate: "March 2024",
+    cover: "https://i1.ytimg.com/vi/5_JVDEe5vQs/maxresdefault.jpg",
     tags: ["electronic", "mellow", "instrumental"],
     links: {
-      spotify: "https://open.spotify.com/artist/chtnnh",
-      apple: "https://music.apple.com/artist/chtnnh",
-      youtube: "https://youtube.com/@chtnnh"
+      spotify: "https://open.spotify.com/artist/7BPea1qt2laxvuxKH0vIbV?si=EYtXa_9UQnykO0wfbiuVoA",
+      apple: "https://music.apple.com/us/artist/chtnyh/1791359881",
+      youtube: "https://youtube.com/watch?v=5_JVDEe5vQs"
     }
   },
   {
-    title: "Aurora Waves",
-    releaseDate: "January 2023",
-    cover: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    tags: ["electronic", "vocals", "ambient"],
+    title: "Raw",
+    releaseDate: "February 2025",
+    cover: "https://i1.ytimg.com/vi/bpet5YQNgpE/maxresdefault.jpg",
+    tags: ["electronic", "ambient"],
     links: {
-      spotify: "https://open.spotify.com/artist/chtnnh",
-      apple: "https://music.apple.com/artist/chtnnh",
-      youtube: "https://youtube.com/@chtnnh"
+      spotify: "https://open.spotify.com/track/0tz3OBfvmBpUYpocWV5gso?si=f9ff1d6343564899",
+      apple: "https://music.apple.com/us/album/raw/1791360006?i=1791360007",
+      youtube: "https://youtube.com/watch?v=bpet5YQNgpE"
     }
-  }
-];
-
-// Define studio images
-const studioImages = [
-  {
-    src: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    alt: "Electronic music instruments"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    alt: "Music studio atmosphere"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1626285861696-9f0bf5a49c6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    alt: "Mellow electronic music aesthetic"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1631145723121-a9628eeb6e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    alt: "Music performance"
   }
 ];
 
@@ -148,7 +128,8 @@ const Music = () => {
               <div className="relative">
                 <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1535712376154-16a4ef01b3b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                    src="https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    
                     alt="Upcoming album artwork" 
                     className="w-full h-full object-cover"
                   />
@@ -165,36 +146,10 @@ const Music = () => {
                 My first full-length album is set to release later this year, featuring a collection of introspective electronic tracks that blend mellow tones with dynamic electronic elements.
               </p>
               <div className="inline-block border border-secondary/50 rounded-full py-2 px-5 text-secondary">
-                <i className="far fa-calendar-alt mr-2"></i> Coming in 2023
+                <i className="far fa-calendar-alt mr-2"></i>Coming in 2025
               </div>
             </div>
           </div>
-        </motion.div>
-        
-        {/* Studio Images Grid */}
-        <motion.div 
-          className="grid grid-cols-2 md:grid-cols-4 gap-4"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, staggerChildren: 0.1 }}
-        >
-          {studioImages.map((image, index) => (
-            <motion.div 
-              key={index}
-              className="rounded-xl overflow-hidden"
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-            >
-              <img 
-                src={image.src} 
-                alt={image.alt} 
-                className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
-              />
-            </motion.div>
-          ))}
         </motion.div>
       </div>
     </section>

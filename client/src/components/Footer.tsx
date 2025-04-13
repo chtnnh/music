@@ -17,7 +17,7 @@ const Footer = () => {
           
           <div className="flex space-x-6 mb-8">
             <a 
-              href="https://open.spotify.com/artist/chtnnh" 
+              href="https://open.spotify.com/artist/7BPea1qt2laxvuxKH0vIbV?si=EYtXa_9UQnykO0wfbiuVoA" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-foreground/80 hover:text-secondary transition-colors"
@@ -26,7 +26,7 @@ const Footer = () => {
               <i className="fab fa-spotify text-xl"></i>
             </a>
             <a 
-              href="https://music.apple.com/artist/chtnnh" 
+              href="https://music.apple.com/us/artist/chtnyh/1791359881" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-foreground/80 hover:text-secondary transition-colors"
