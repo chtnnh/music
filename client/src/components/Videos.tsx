@@ -4,6 +4,11 @@ import ReactPlayer from 'react-player/youtube';
 // Define video data
 const videos = [
   {
+    id: "193yyL6S8ho",
+    title: "liability - (lorde cover)",
+    releaseDate: "May 2025"
+  },
+  {
     id: "5_JVDEe5vQs",
     title: "Cabbie (Official Music Video)",
     releaseDate: "March 2024"

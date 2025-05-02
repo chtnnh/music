@@ -16,7 +16,7 @@ A creative and sleek music artist website with custom animations, music/video sh
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: 
+- **Frontend**:
   - React (with TypeScript)
   - Tailwind CSS for styling
   - Framer Motion for animations
@@ -31,7 +31,7 @@ A creative and sleek music artist website with custom animations, music/video sh
 
 ## 📦 Project Structure
 
-```
+```sh
 project/
 ├── client/               # Frontend React application
 │   ├── src/
@@ -62,18 +62,21 @@ project/
 ### Installation
 
 1. Clone the repository:
-   ```
+
+   ```sh
    git clone https://github.com/yourusername/chtnnh-music-website.git
    cd chtnnh-music-website
    ```
 
 2. Install dependencies:
-   ```
+
+   ```sh
    npm install
    ```
 
 3. Start the development server:
-   ```
+
+   ```sh
    npm run dev
    ```
 
@@ -111,6 +114,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For any questions or inquiries about this project, please contact:
 
-- Email: music@chtnnh.me
+- Email: <music@chtnnh.me>
 - YouTube: [@chtnnh](https://youtube.com/@chtnnh)
 - Instagram: [@chtnyh](https://instagram.com/chtnyh)

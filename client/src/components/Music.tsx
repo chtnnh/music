@@ -3,6 +3,17 @@ import { motion } from 'framer-motion';
 // Define track data
 const tracks = [
   {
+    title: "liability - (lorde cover)",
+    releaseDate: "May 2025",
+    cover: "https://i1.ytimg.com/vi/193yyL6S8ho/maxresdefault.jpg",
+    tags: ["pop", "cover", "lorde"],
+    links: {
+      spotify: "https://open.spotify.com/artist/7BPea1qt2laxvuxKH0vIbV?si=EYtXa_9UQnykO0wfbiuVoA",
+      apple: "https://music.apple.com/us/artist/chtnyh/1791359881",
+      youtube: "https://youtube.com/watch?v=193yyL6S8ho"
+    }
+  },
+  {
     title: "Cabbie",
     releaseDate: "March 2024",
     cover: "https://i1.ytimg.com/vi/5_JVDEe5vQs/maxresdefault.jpg",
