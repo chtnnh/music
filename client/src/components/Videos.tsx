@@ -4,20 +4,35 @@ import ReactPlayer from 'react-player/youtube';
 // Define video data
 const videos = [
   {
+    id: "EusiWMADoIo",
+    title: "stage three (3/6) of attachment",
+    releaseDate: "June 2025",
+  },
+  {
+    id: "29WASkspi6o",
+    title: "2 am mix",
+    releaseDate: "June 2025",
+  },
+  {
+    id: "R24PI7FOiRg",
+    title: "stage one (1/6) of attachment",
+    releaseDate: "June 2025",
+  },
+  {
     id: "193yyL6S8ho",
     title: "liability - (lorde cover)",
-    releaseDate: "May 2025"
+    releaseDate: "May 2025",
   },
   {
     id: "5_JVDEe5vQs",
     title: "Cabbie (Official Music Video)",
-    releaseDate: "March 2024"
+    releaseDate: "March 2024",
   },
   {
     id: "bpet5YQNgpE",
     title: "Raw (Official Visualizer)",
-    releaseDate: "February 2025"
-  }
+    releaseDate: "February 2025",
+  },
 ];
 
 const Videos = () => {
@@ -56,9 +71,7 @@ const Videos = () => {
                   height="100%"
                   className="w-full h-full"
                   config={{
-                    youtube: {
-                      playerVars: { showinfo: 1 }
-                    }
+                    playerVars: { showinfo: 1 },
                   }}
                 />
               </div>

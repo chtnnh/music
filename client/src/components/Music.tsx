@@ -3,6 +3,39 @@ import { motion } from 'framer-motion';
 // Define track data
 const tracks = [
   {
+    title: "stage three (3/6) of attachment",
+    releaseDate: "June 2025",
+    cover: "https://i1.ytimg.com/vi/EusiWMADoIo/maxresdefault.jpg",
+    tags: ["mixing", "impromptu", "live"],
+    links: {
+      spotify: "https://open.spotify.com/artist/7BPea1qt2laxvuxKH0vIbV?si=EYtXa_9UQnykO0wfbiuVoA",
+      apple: "https://music.apple.com/us/artist/chtnyh/1791359881",
+      youtube: "https://youtu.be/EusiWMADoIo",
+    },
+  },
+  {
+    title: "2 am mix",
+    releaseDate: "June 2025",
+    cover: "https://i1.ytimg.com/vi/29WASkspi6o/maxresdefault.jpg",
+    tags: ["mixing", "impromptu", "live"],
+    links: {
+      spotify: "https://open.spotify.com/artist/7BPea1qt2laxvuxKH0vIbV?si=EYtXa_9UQnykO0wfbiuVoA",
+      apple: "https://music.apple.com/us/artist/chtnyh/1791359881",
+      youtube: "https://youtu.be/29WASkspi6o",
+    },
+  },
+  {
+    title: "stage one (1/6) of attachment",
+    releaseDate: "June 2025",
+    cover: "https://i1.ytimg.com/vi/R24PI7FOiRg/maxresdefault.jpg",
+    tags: ["mixing", "impromptu", "live"],
+    links: {
+      spotify: "https://open.spotify.com/artist/7BPea1qt2laxvuxKH0vIbV?si=EYtXa_9UQnykO0wfbiuVoA",
+      apple: "https://music.apple.com/us/artist/chtnyh/1791359881",
+      youtube: "https://youtu.be/R24PI7FOiRg",
+    },
+  },
+  {
     title: "liability - (lorde cover)",
     releaseDate: "May 2025",
     cover: "https://i1.ytimg.com/vi/193yyL6S8ho/maxresdefault.jpg",
@@ -10,8 +43,8 @@ const tracks = [
     links: {
       spotify: "https://open.spotify.com/artist/7BPea1qt2laxvuxKH0vIbV?si=EYtXa_9UQnykO0wfbiuVoA",
       apple: "https://music.apple.com/us/artist/chtnyh/1791359881",
-      youtube: "https://youtube.com/watch?v=193yyL6S8ho"
-    }
+      youtube: "https://youtube.com/watch?v=193yyL6S8ho",
+    },
   },
   {
     title: "Cabbie",
@@ -21,8 +54,8 @@ const tracks = [
     links: {
       spotify: "https://open.spotify.com/artist/7BPea1qt2laxvuxKH0vIbV?si=EYtXa_9UQnykO0wfbiuVoA",
       apple: "https://music.apple.com/us/artist/chtnyh/1791359881",
-      youtube: "https://youtube.com/watch?v=5_JVDEe5vQs"
-    }
+      youtube: "https://youtube.com/watch?v=5_JVDEe5vQs",
+    },
   },
   {
     title: "Raw",
@@ -32,9 +65,9 @@ const tracks = [
     links: {
       spotify: "https://open.spotify.com/track/0tz3OBfvmBpUYpocWV5gso?si=f9ff1d6343564899",
       apple: "https://music.apple.com/us/album/raw/1791360006?i=1791360007",
-      youtube: "https://youtube.com/watch?v=bpet5YQNgpE"
-    }
-  }
+      youtube: "https://youtube.com/watch?v=bpet5YQNgpE",
+    },
+  },
 ];
 
 const Music = () => {
